@@ -7,10 +7,10 @@ using namespace std;
 
 class dominoesSolution {
 public:
-    // BFS方法
+    // BFS方法 
     string bfs_pushDominoes(string dominoes) {
         return dominoeBFS(dominoes);
-    }
+    } 
     // 双指针法
     string dptr_pushDominoes(string dominoes) {
         dominoeDptr(dominoes);
